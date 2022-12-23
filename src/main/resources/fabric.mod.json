@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "bc",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "BladeCraft",
+  "description": "This mod helps those who want more gems in their MC world. This is my first mod and this adds gems such as rubies and sapphires which can then be crafted into stronger tools. This mod gives you more ores as well so now you can be on the lookout for not only diamonds and emeralds, but rubies and sapphires as well. I hope you enjoy playing this mod as much as I enjoyed making it. I will add many other things to this mod and I hope you all enjoy it.",
   "authors": [
-    "Me!"
+    "Freyr"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,19 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "logo.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.freyr.bc.BladeCraft"
+    ],
+    "client": [
+      "com.freyr.bc.BladeCraftClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "bc.mixins.json"
   ],
 
   "depends": {
