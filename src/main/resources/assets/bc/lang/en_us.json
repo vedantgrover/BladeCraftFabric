@@ -1,5 +1,10 @@
 {
   "item.bc.ruby": "Ruby",
+  "item.bc.raw_ruby": "Raw Ruby",
 
-  "itemGroup.bc.ruby_item_group": "Ruby"
+  "item.bc.sapphire": "Sapphire",
+  "item.bc.raw_sapphire": "Raw Sapphire",
+
+  "itemGroup.bc.ruby_item_group": "Ruby",
+  "itemGroup.bc.sapphire_item_group": "Sapphire"
 }
