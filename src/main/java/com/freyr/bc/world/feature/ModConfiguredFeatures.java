@@ -14,7 +14,7 @@ public class ModConfiguredFeatures {
         OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK.getDefaultState())
     );
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE = ConfiguredFeatures.register("ruby_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_RUBY_ORES, 5));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE = ConfiguredFeatures.register("ruby_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_RUBY_ORES, 7));
 
     public static void registerConfiguredFeatures() {
         BladeCraft.LOGGER.debug("Registering Configured Features for " + BladeCraft.MOD_ID);
