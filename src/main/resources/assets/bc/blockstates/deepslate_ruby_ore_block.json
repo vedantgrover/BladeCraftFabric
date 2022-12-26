@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bc:block/deepslate_ruby_ore_block"
+    }
+  }
+}

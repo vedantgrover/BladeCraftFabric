@@ -1,5 +1,6 @@
 package com.freyr.bc;
 
+import com.freyr.bc.blocks.ModBlocks;
 import com.freyr.bc.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class BladeCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
